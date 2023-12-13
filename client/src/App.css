@@ -1,38 +1,44 @@
-.App {
-  text-align: center;
+
+body {
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.marquee-style {
+  font-size: 20em;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header {
+  font-size: 20em;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.wrapper-main {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.progress-bar {
+  width: 20em;
+  margin-left: -20em;
+  margin-top: 15em;
+}
+
+/* prgoress bar sgtyle */
+
+
+.progress-bar .wrapper {
+  border: 1px solid black !important;
+  height: 30px;
+}
+
+.progress-bar  .container {
+  background-color: white;
+  height: 30px;
+}
+
+.progress-bar .barCompleted {
+  background-color: black;
+  width: 60%;
+  height: 30px;
+}
+
+.progress-bar .label {
+  font-size: 20px;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  height: 30px;
 }

@@ -44,7 +44,7 @@ ${bar.raw}
     }
 };
 
-
+console.log("cron schedule started <<<30 20 * * *>>>");
 cron.schedule("30 20 * * *", () => {
     console.log("calling >>>>>>> tweetProgressBar()");
     tweetProgressBar();
