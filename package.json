@@ -1,0 +1,20 @@
+{
+  "name": "twitter-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ascii-progress": "^2.0.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "multi-progress": "^4.0.0",
+    "node-cron": "^3.0.3",
+    "progress": "^2.0.3",
+    "twitter-api-v2": "^1.15.2"
+  }
+}
